@@ -9,10 +9,12 @@ import { AccountsPage } from './pages/AccountsPage';
 import { PricingPage } from './pages/PricingPage';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
+
 import { usePlatforms } from './hooks/usePlatforms';
 import { usePosts } from './hooks/usePosts';
-import { useScheduler } from './hooks/useScheduler';
-import { useAuth } from './hooks/useAuth';
+import { useScheduler } from './hooks/useScheduler';//xử lý lên lịch đăng bài tự động.
+import { useAuth } from './hooks/useAuth';//kiểm tra người dùng đã đăng nhập hay chưa.
+
 import { apiService } from './services/apiService';
 import { validateMediaForPlatform } from './utils/mediaUtils';
 
