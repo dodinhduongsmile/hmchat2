@@ -8,7 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist folder is included to provide a static HTML/CSS/JS build
+# Remove the leading hash if you want to exclude it again
+#dist
 dist-ssr
 *.local
 

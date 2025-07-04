@@ -98,6 +98,8 @@ npm run preview  # Preview production build
 npm run lint     # Kiểm tra code với ESLint
 ```
 
+Sau khi chạy `npm run build`, thư mục `dist` sẽ chứa phiên bản HTML/CSS/JS có thể triển khai ở bất kỳ máy chủ tĩnh nào. Chỉ cần mở `dist/index.html` trong trình duyệt hoặc upload toàn bộ thư mục lên dịch vụ hosting.
+
 ---
 
 ## 📖 Hướng dẫn sử dụng
